@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071426">
+  <meta name="description" content="Achados e ofertas de informática e tecnologia. Confira notebooks, componentes e acessórios." />
+  <title>Tech Oferta | Tecnologia e informática</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Tech Oferta - início"><span class="brand-mark">T<span>+</span></span><span>TECH <b>OFERTA</b><small>TECNOLOGIA QUE VALE A PENA</small></span></a>
+    <nav class="main-nav" aria-label="Navegação principal"><a href="#inicio">Início</a><a href="#produtos">Produtos</a><a href="#sobre">Sobre</a></nav>
+    <a class="header-cta" href="#produtos">Explorar produtos <span>↗</span></a>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> SELEÇÃO DE TECNOLOGIA</div>
+        <h1>Boas escolhas.<br><span>Mais tecnologia.</span></h1>
+        <p>Encontre notebooks, componentes e acessórios para equipar sua rotina, seu trabalho ou seu setup.</p>
+        <a class="primary-button" href="#produtos">VER PRODUTOS <span>↓</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="chip"><span>TECH</span><strong>+</strong><small>SMART<br>CHOICES</small></div><i class="spark spark-a"></i><i class="spark spark-b"></i></div>
+      <div class="hero-foot"><span>CURADORIA DE INFORMÁTICA</span><span>ATUALIZADO COM NOVOS ACHADOS</span></div>
+    </section>
+
+    <section class="products-section" id="produtos">
+      <div class="section-heading"><div><div class="eyebrow">VITRINE TECH</div><h2>Produtos em destaque<span>.</span></h2><p>Escolha o que combina com você e confira os detalhes na loja.</p></div><div class="product-count" id="product-count">0 PRODUTOS</div></div>
+      <div class="toolbar"><label class="search-box"><span>⌕</span><input id="search" type="search" placeholder="Buscar produto..." aria-label="Buscar produto"></label><div class="filters" id="filters" aria-label="Filtrar por categoria"></div></div>
+      <div class="product-grid" id="product-grid" aria-live="polite"></div>
+      <div class="empty-state" id="empty-state" hidden>Nenhum produto encontrado. Tente outra busca ou categoria.</div>
+    </section>
+
+    <section class="about" id="sobre"><div class="about-icon">✳</div><div><div class="eyebrow">SOBRE A TECH OFERTA</div><h2>Tecnologia sem complicação.</h2><p>Reunimos produtos de informática em uma vitrine simples para ajudar você a encontrar o que procura.</p></div></section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#inicio"><span class="brand-mark">T<span>+</span></span><span>TECH <b>OFERTA</b><small>TECNOLOGIA QUE VALE A PENA</small></span></a><p>Alguns links podem ser links de afiliado. Podemos receber comissão por compras qualificadas, sem custo adicional para você.</p><small>© <span id="year"></span> Tech Oferta. Preços e disponibilidade são definidos pela loja e podem mudar a qualquer momento.</small></footer>
+  <script src="app.js"></script>
+</body>
+</html>

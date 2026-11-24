@@ -1,0 +1,20 @@
+[
+  {
+    "id": "lenovo-ideapad-slim-3",
+    "title": "Notebook Lenovo IdeaPad Slim 3 15,3\" Luna Grey",
+    "subtitle": "Intel Core 3 100U • 8GB RAM • 256GB SSD • Windows 11 Home",
+    "category": "Notebooks",
+    "description": "Notebook para produtividade, estudos e tarefas do dia a dia. Conta com tela IPS WUXGA antirreflexo de 15,3 polegadas, memória DDR5, armazenamento SSD NVMe e conectividade Wi-Fi 6.",
+    "specs": ["Intel Core 3 100U", "8GB DDR5", "SSD 256GB", "Tela 15,3\" WUXGA", "Windows 11"],
+    "images": [
+      "assets/products/lenovo-ideapad-slim-3-01.png",
+      "assets/products/lenovo-ideapad-slim-3-02.png",
+      "assets/products/lenovo-ideapad-slim-3-03.png",
+      "assets/products/lenovo-ideapad-slim-3-04.png",
+      "assets/products/lenovo-ideapad-slim-3-05.png",
+      "assets/products/lenovo-ideapad-slim-3-06.png"
+    ],
+    "affiliateUrl": "https://link.amazon/B0fK6bfzd",
+    "disclosure": "Preço e disponibilidade devem ser consultados diretamente na Amazon."
+  }
+]

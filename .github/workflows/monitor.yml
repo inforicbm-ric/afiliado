@@ -1,0 +1,16 @@
+name: Monitoramento de produtos (a configurar)
+
+on:
+  # Exemplo: 07:00 no horário de Brasília (UTC-3) = 10:00 UTC.
+  # O agendamento pode atrasar em períodos de alta demanda do GitHub Actions.
+  # Remova o comentário quando o script e a fonte autorizada estiverem prontos.
+  # schedule:
+  #   - cron: '0 10 * * *'
+  workflow_dispatch:
+
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Aviso de configuração pendente
+        run: echo "Monitoramento ainda não configurado. Nenhuma consulta de estoque será executada."
