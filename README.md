@@ -43,3 +43,7 @@ O site é estático e não consulta estoque por conta própria. O workflow em `.
 - O link de afiliado do primeiro produto foi mantido exatamente como recebido.
 - Não foi possível confirmar o ASIN a partir do link curto informado; por isso, o catálogo não inventa nem registra um ASIN.
 - A declaração de afiliado está visível no rodapé.
+
+
+### Padrão dos cards
+Cada produto usa uma única imagem principal no card. O fundo da imagem foi integrado à paleta azul-marinho do site; o título aparece logo abaixo da imagem.
